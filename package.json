@@ -1,0 +1,27 @@
+{
+  "name": "parsel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /parsel-test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klem26/parsel-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klem26/parsel-test/issues"
+  },
+  "homepage": "https://github.com/Klem26/parsel-test#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
